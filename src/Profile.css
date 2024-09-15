@@ -1,0 +1,35 @@
+/* Profile.css */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f7fdf4; /* Light green background */
+  }
+  
+  h2 {
+    color: #4CAF50;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #45a049;
+  }
+  
