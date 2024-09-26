@@ -1,0 +1,145 @@
+/* Profile.css */
+.body{
+  background-image: url("images/sahem_background_4.jpg");
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 270vh;
+  width:fit-content;
+  background-color: #f4f8ff;
+  
+}
+
+.profile-card {
+  display: flex;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90%;
+}
+
+.profile-sidebar {
+  width: 35%;
+  background-color: #f7f9fc;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid #e6e8eb;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: #444 2px solid;
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-title {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.profile-stats {
+  text-align: center;
+}
+
+.profile-stats p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.stat-number {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.public-profile-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.public-profile-btn:hover {
+  background-color: #45a049;
+}
+
+.profile-details {
+  padding: 30px;
+  width: 65%;
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.profile-info-item label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+.profile-info-item p {
+  margin: 5px 0 15px;
+  font-size: 16px;
+}
+
+.profile-history {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.edit-button, .back-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.edit-button:hover, .back-button:hover {
+  background-color: #45a049;
+}
+
+p{
+  color: #444;
+}
+
+
+
+.pfp{
+  border: #444 1px solid;
+}
