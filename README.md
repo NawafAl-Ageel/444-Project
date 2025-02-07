@@ -32,4 +32,4 @@ npm start
 - Mobile application for seamless volunteer tracking
 
 ## 📫 Contact
-For queries or collaboration, reach out via **[LinkedIn](your-link-here)** or **[Email](mailto:NawafSoftwareEng@gmail.com)**.
+For queries or collaboration, reach out via **[LinkedIn](https://www.linkedin.com/in/nawaf-alageel-794462312/)** or **[Email](mailto:NawafSoftwareEng@gmail.com)**.
